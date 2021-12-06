@@ -87,7 +87,7 @@
                     "internal": true,
                     "t_types": "EBC",
                     "m_notes": "Robust reciprocal help-desk",
-                    "eng_topic": "asymmetric"
+                    "eng_topic": "IOT"
                 }, {
                     "id": 2,
                     "executive_name": "Lamond Gaddesby",
@@ -98,7 +98,7 @@
                     "internal": false,
                     "t_types": "Media & Analysts",
                     "m_notes": "Robust tertiary service-desk",
-                    "eng_topic": "systemic"
+                    "eng_topic": "Edge"
                 }, {
                     "id": 3,
                     "executive_name": "Rouvin Worsalls",
@@ -109,7 +109,7 @@
                     "internal": true,
                     "t_types": "Customer",
                     "m_notes": "Versatile client-server matrices",
-                    "eng_topic": "responsive"
+                    "eng_topic": "Blockchain"
                 }, {
                     "id": 4,
                     "executive_name": "Adams Smuth",
@@ -120,7 +120,7 @@
                     "internal": true,
                     "t_types": "Partner",
                     "m_notes": "Programmable fresh-thinking archive",
-                    "eng_topic": "methodical"
+                    "eng_topic": "Blockchain"
                 }, {
                     "id": 5,
                     "executive_name": "Nelia Thurber",
@@ -131,7 +131,7 @@
                     "internal": true,
                     "t_types": "Partner",
                     "m_notes": "Synergistic mobile protocol",
-                    "eng_topic": "Innovative"
+                    "eng_topic": "Blockchain"
                 }, {
                     "id": 6,
                     "executive_name": "Alphonse Crossgrove",
@@ -142,7 +142,7 @@
                     "internal": false,
                     "t_types": "Partner",
                     "m_notes": "Balanced asynchronous focus group",
-                    "eng_topic": "instruction set"
+                    "eng_topic": "IOT"
                 }, {
                     "id": 7,
                     "executive_name": "Karel Sancto",
@@ -153,7 +153,7 @@
                     "internal": false,
                     "t_types": "Customer",
                     "m_notes": "Business-focused empowering migration",
-                    "eng_topic": "focus group"
+                    "eng_topic": "Networking"
                 }, {
                     "id": 8,
                     "executive_name": "Tamarah Auston",
@@ -164,7 +164,7 @@
                     "internal": false,
                     "t_types": "Partner",
                     "m_notes": "Function-based 24/7 architecture",
-                    "eng_topic": "hardware"
+                    "eng_topic": "Security"
                 }, {
                     "id": 9,
                     "executive_name": "Jennilee Marwick",
@@ -175,7 +175,7 @@
                     "internal": false,
                     "t_types": "Partner",
                     "m_notes": "Stand-alone dynamic benchmark",
-                    "eng_topic": "web-enabled"
+                    "eng_topic": "Security"
                 }, {
                     "id": 10,
                     "executive_name": "Marketa Addie",
@@ -186,7 +186,7 @@
                     "internal": false,
                     "t_types": "EBC",
                     "m_notes": "Centralized tertiary portal",
-                    "eng_topic": "Digitized"
+                    "eng_topic": "Security"
                 }];
 
             $(function () {
@@ -476,9 +476,16 @@
                 <label for="meetingnotes" class="form-label">Meeting notes </label>
                 <textarea class="form-control" id="meetingnotes"></textarea>
             </div>
-            <div class="col-md-6">
+           <div class="col-md-6">
                 <label for="engagementtopic" class="form-label">Engagement topic </label>
-                <textarea class="form-control" id="engagementtopic"></textarea>
+                <select class="select form-control" id="engagementtopic">
+                            <option value=""></option>
+                            <option value="IOT">IOT</option>
+                            <option value="Edge">Edge</option>
+                            <option value="Blockchain">Blockchain</option>
+                            <option value="Security">Security</option>
+                            <option value="Networking">Networking</option>
+                        </select>
             </div>
 
             <!--        <div class="col-md-4">-->
